@@ -41,8 +41,6 @@ const handleMotion = (event: DeviceMotionEvent) => {
 onMounted(() => {
   if (window.DeviceMotionEvent) {
     window.addEventListener('devicemotion', handleMotion)
-  } else {
-    console.log('Акселерометр не поддерживается')
   }
 })
 
