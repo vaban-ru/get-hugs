@@ -70,13 +70,13 @@ const hupImgComputed = computed(() => {
 
 <style lang="scss">
 #confetti {
-  width: 100% !important;
-  height: 100vh !important;
-  position: absolute !important;
-  overflow: hidden !important;
-  top: 0 !important;
-  left: 0 !important;
-  z-index: -1 !important;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .page {
